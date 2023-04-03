@@ -2,7 +2,7 @@
 
 set -eux
 
-PROJECT_ROOT="/go/src/github.com/${GITHUB_REPOSITORY}"
+PROJECT_ROOT="/go/src/${GITHUB_REPOSITORY}"
 
 mkdir -p $PROJECT_ROOT
 rmdir $PROJECT_ROOT
